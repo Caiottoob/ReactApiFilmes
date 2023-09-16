@@ -1,0 +1,132 @@
+td{
+    background-color: white;
+    gap: 30px;
+    color: black;
+    display: flex;
+    margin: 20px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -10px black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+tr{
+    display: flex;
+    justify-content: center;
+    width: 986px;
+}
+
+td img{
+    width: 206px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+
+}
+
+td div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+td div nav{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+td div nav:first-child{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+body{
+    background-color:#F4F4F4;
+    margin: 0px;
+}
+
+table{
+    width: 100%;
+}
+
+div :root{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    td{
+        background-color: white;
+        gap: 30px;
+        color: black;
+        margin: 20px 0px;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px -10px black;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    tr{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    td img{
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: end;
+        height: 200px;
+        object-fit: cover;
+        object-position: 0px -100px;
+    
+    }
+    
+    td div:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+    
+    td div nav{
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: black;
+    
+    }
+    
+    td div nav:first-child{
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: red;
+        width: 100%;
+        text-align: justify;
+    }
+    
+    body{
+        background-color:#F4F4F4;
+        margin: 0px;
+    }
+    
+    table{
+        width: 100%;
+    }
+
+    #root, #root > div {
+        background-color: black;
+      }
+    
+    
+  }

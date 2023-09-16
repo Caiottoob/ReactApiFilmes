@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    left: 0px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px -5px red;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+header a{
+    color: black;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
